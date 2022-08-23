@@ -1,0 +1,18 @@
+<view class="head">
+    <image src="../../images/bgimg.jpg" class="headimg"></image>
+
+    <view class="tabBar" style="margin-top:{{capsuleInfo.top}}px;height: {{capsuleInfo.height}}px;">
+        <view ></view>
+      <text>页面浏览</text>
+      <view></view>
+    </view>
+</view>
+<view class="container">
+    <view class="card">
+        <van-cell-group>
+            <van-cell is-link title="宝贝档案" link-type="navigateTo" url="/pages/archives/index" />
+            <van-cell is-link title="周周身高" link-type="navigateTo" url="/pages/addChild/index" />
+        </van-cell-group>
+    </view>
+
+</view>

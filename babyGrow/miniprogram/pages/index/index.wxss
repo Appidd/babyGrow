@@ -1,0 +1,4 @@
+.child_info{
+    display: flex;
+    justify-content: space-around;
+}

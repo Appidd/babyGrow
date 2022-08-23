@@ -1,0 +1,55 @@
+<view class="head">
+    <image src="../../images/bgimg.jpg" class="headimg"></image>
+    <view class="tabBar" style="margin-top:{{capsuleInfo.top}}px;height: {{capsuleInfo.height}}px;">
+        <text>周周测身高</text>
+    </view>
+    <view style="margin-top:{{capsuleInfo.top}}px;height: {{capsuleInfo.height}}px; position: absolute;align-items: center;display: flex;">
+        <text class="iconfont icon-zuojiantou" style="font-size: 36rpx; color: white;margin-left: 30rpx;" bindtap="getback" />
+    </view>
+</view>
+<view class="container">
+   
+    <view class="card" style="margin-top: -50rpx; z-index: 999;padding-bottom: 20rpx;position: relative;">
+        <view class="modname">
+            <view class="greenLine"></view>
+            <view style="margin-left: 10rpx;">宝贝基础信息</view>
+            
+        </view>
+        <image src="../../images/head_girl.png" class="head_girl"></image>
+        <view style="height: 26rpx;"></view>
+        
+  <van-field
+    value="{{ username }}"
+    required
+    clearable
+    label="宝贝姓名"
+    placeholder="请输入"
+    input-align="right"
+  />
+  <van-cell title="宝贝性别" is-link value="请选择"  required/>
+  <van-cell title="宝贝生日" is-link value="请选择"  required/>
+  <van-cell title="父亲身高" is-link value="请选择"  required/>
+  <van-cell title="母亲身高" is-link value="请选择"  required/>
+   <van-cell title="期望成年身高" is-link value="请选择"  required/>
+       
+    </view>
+   
+    <view class="card" style="margin-top: 20rpx; z-index: 999;padding-bottom: 20rpx;position: relative;">
+        <view class="modname">
+            <view class="greenLine"></view>
+            <view style="margin-left: 10rpx;">测量信息</view>
+            
+        </view>
+        
+        <view style="height: 26rpx;"></view>
+        
+  
+  
+  <van-cell title="宝贝身高" is-link value="请选择"  required/>
+  <van-cell title="宝贝体重" is-link value="请选择"  required/>
+  <van-cell title="骨龄" is-link value="请选择"  />
+   <van-cell title="测量日期" is-link value="2022.8.28"  />
+   <van-cell title="当前城市" is-link value="四川省成都市"  />
+    </view>
+    <view class="addbtn">记录</view>
+</view>

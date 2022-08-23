@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 3603899 */
+    src: url('//at.alicdn.com/t/c/font_3603899_wjr6alfjhis.woff2?t=1661171654416') format('woff2'),
+         url('//at.alicdn.com/t/c/font_3603899_wjr6alfjhis.woff?t=1661171654416') format('woff'),
+         url('//at.alicdn.com/t/c/font_3603899_wjr6alfjhis.ttf?t=1661171654416') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-24gl-questionCircle:before {
+    content: "\e97f";
+  }
+  
+  .icon-zuojiantou:before {
+    content: "\e603";
+  }
+  
+  
+page {
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+.card{
+    width: 720rpx;
+    border-radius: 20rpx;
+    padding: 10rpx;
+    background-color: white;
+    box-sizing: border-box;
+}
+.head{
+    position: relative;
+}
+.headimg{
+    float: left;
+    width: 100%;
+    height: 300rpx;
+   opacity: 0.8;
+   
+}
+.tabBar{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   box-sizing: border-box;
+}
+.addbtn{
+    display: flex;
+    width: 720rpx;
+    border-radius: 40rpx;
+    height: 80rpx;
+    background-color: #03b351;
+    margin-top: 20rpx;
+    line-height: 80rpx;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30rpx;
+}
+
+
+
